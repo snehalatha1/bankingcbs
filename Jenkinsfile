@@ -10,7 +10,7 @@ pipeline {
   stages {
      stage('checkout'){
        steps {
-          git branch: 'main', url: 'https://github.com/snehalatha1/newbank.git'
+          git branch: 'main', url: 'https://github.com/snehalatha1/bankingcbs.git'
        }
      }
      stage('Package'){
